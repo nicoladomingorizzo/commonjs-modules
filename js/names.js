@@ -4,7 +4,7 @@ Esporta la funzione dal file.
 */
 
 //Crea una funzione che accetta due parametri: firstName, lastName. La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName.
-function fullNameObj(firstName, lastName) {
+function fullName(firstName, lastName) {
     return {
         firstName: firstName,
         lastName: lastName
@@ -13,4 +13,4 @@ function fullNameObj(firstName, lastName) {
 
 
 //Esporta la funzione dal file.
-module.exports = fullNameObj;
+module.exports = fullName;
