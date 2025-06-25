@@ -11,4 +11,6 @@ function fullNameObj(firstName, lastName) {
     };
 };
 
+
+//Esporta la funzione dal file.
 module.exports = fullNameObj;
